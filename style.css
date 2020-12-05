@@ -1,0 +1,410 @@
+/* element and area styles */
+
+body {
+    font-family: 'Exo', sans-serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(221deg, rgba(2,0,36,1) 0%, rgba(33,33,179,1) 35%, rgba(0,212,255,1) 100%);;
+    color:white;
+    overflow: hidden;
+}
+
+p {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.row.no-gutters {
+   margin-right: 0;
+   margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+   padding-right: 0;
+   padding-left: 0;
+}
+
+.modal-footer {
+    text-align: center;
+}
+
+
+
+
+.list-group-item {
+    border-radius: 0;
+    border: none;
+}
+
+.badge {
+    background: black;
+}
+
+li {
+    font-size: 1.3em;
+}
+
+#review {
+    font-size: 30px;
+    padding-top: 5vh;
+    text-align: center;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -o-animation-delay: 1s;
+    -ms-animation-delay: 1s;
+}
+
+#dareSpace {
+    height: 25vh;
+}
+#viewAllSpace {
+    height: 15vh;
+}
+#truthSpace {
+    height: 25vh;
+}
+
+
+#statementSpace {
+    height: 10vh;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+    font-size: 2em;
+}
+
+
+
+#resetSpace {
+    height: 15vh;
+    padding-bottom: 25%;
+    
+}
+
+#edit {
+    display: none;
+    height: 100vh
+}
+
+#addSpace {
+    height: 20vh;
+}
+
+#truthInput {
+    height: 20vh;
+    width: 70%;
+    margin-left: 15%;
+    border: none;
+    background: black;
+    display: inline;
+    color: white;
+    border-radius: 1;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#truthInput:focus {
+    width: 70%;
+    margin-left: 15%;
+    display: inline;
+    outline: none;
+    border: none;
+    outline-style:none;
+    box-shadow:none;
+    border-color:transparent;
+}
+
+#truthInput:active {
+    width: 70%;
+    margin-left: 15%;
+    display: inline;
+    outline: none;
+    border: none;
+    outline-style:none;
+    box-shadow:none;
+    border-color:transparent;
+}
+
+#checkTruth {
+    width: 15%;
+    font-size: 1.2em;
+    display: inline;
+    color:white;
+}
+
+#dareInput {
+    height: 20vh;
+    width: 70%;
+    margin-left: 15%;
+    border: none;
+    background: black;
+    display: none;
+    color: white;
+    border-radius: 1;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#dareInput:focus {
+    width: 70%;
+    margin-left: 15%;
+    display: inline;
+    outline: none;
+    border: none;
+    outline-style:none;
+    box-shadow:none;
+    border-color:transparent;
+}
+
+#dareInput:active {
+    width: 70%;
+    margin-left: 15%;
+    display: inline;
+    outline: none;
+    border: none;
+    outline-style:none;
+    box-shadow:none;
+    border-color:transparent;
+}
+
+#checkDare {
+    width: 15%;
+    font-size: 1.2em;
+    display: inline;
+    color:white;
+    position: center;
+}
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
+
+
+
+#progressSpace {
+    height: 20vh;
+}
+
+
+
+/* button styles */
+
+button {
+    background: transparent;
+}
+
+btn:focus {
+    outline: none;
+}
+
+.btn-block {
+    border-radius: 300px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.arrow-button {
+    font-size: 1em;
+    color: black;
+    border: none;
+}
+
+.arrow-button:hover {
+    outline: none;
+    color: black;
+}
+
+.arrow-button:focus {
+    outline: none;
+    color: black;
+}
+
+.arrow-button:active {
+    outline: none;
+    color: black;
+}
+
+#truth {
+    height: 25vh;
+    font-size: 3em;
+    border: none;
+}
+
+#truth:hover {
+    color: white;
+    outline: none;
+}
+
+#truth:focus {
+    color: white;
+    outline: none;
+}
+
+#truth:active {
+    outline: none;
+}
+
+#dare {
+    height: 25vh;
+    font-size: 3em;
+}
+
+#dare:hover {
+    color: white;
+    outline: none;
+}
+
+#dare:focus {
+    color: white;
+    outline: none;
+}
+
+#dare:active {
+    outline: none;
+}
+
+#reset {
+    display: none;
+    height: 20vh;
+    
+    font-size: 2em;
+}
+
+#reset:disabled {
+    background: white;
+    color: white;
+}
+
+#reset:hover {
+    outline: none;
+    color: white;
+}
+
+#reset:focus {
+    outline: none;
+    color:white;
+}
+
+#reset:active {
+    outline: none;
+    color: white;
+}
+
+
+#checkTruthButton {
+    background: transparent;
+    color: white;
+}
+
+#checkTruthButton:hover {
+    outline: none;
+    color: white;
+}
+
+#checkTruthButton:focus {
+    outline: none;
+    color:white;
+}
+
+#checkTruthButton:active {
+    outline: none;
+    color: white;
+}
+
+#checkDareButton {
+    background: transparent;
+    color: white;
+    display: none;
+}
+
+#checkDareButton:hover {
+    outline: none;
+    color: white;
+}
+
+#checkDareButton:focus {
+    outline: none;
+    color:white;
+}
+
+#checkDareButton:active {
+    outline: none;
+    color: white;
+}
+
+
+
+#next:hover {
+    outline: none;
+    color: white;
+}
+
+#next:focus {
+    outline: none;
+    color:white;
+}
+
+#next:active {
+    outline: none;
+    color: white;
+}
+
+
+
+#save {
+    height: 20vh;
+    font-size: 2em;
+    display: none;
+    margin: 0;
+    border: none;
+}
+
+#save:hover {
+    outline: none;
+    color: white;
+}
+
+#save:focus {
+    outline: none;
+    color:white;
+}
+
+#save:active {
+    outline: none;
+    color: white;
+}
+
+
+
+/* background and font colors */
+
+.white-color {
+    color: white;
+}
+
+.black-color {
+    color: black;
+}
+
+.white-color {
+    color: rgb(255, 255, 255);
+}
+
+.black-bg {
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    
+    
+}
+
+.white-bg {
+    background: white;
+}
